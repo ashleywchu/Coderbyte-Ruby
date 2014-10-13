@@ -26,7 +26,7 @@ puts BinaryConverter("100101")
 
 def BinaryConverter(str)
   str.reverse!
-  letters = str.split(//)
+  letters = str.split("")
   answer = 0
   for i in 0..letters.size()
     answer += letters[i].to_i * 2**i

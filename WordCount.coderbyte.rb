@@ -5,15 +5,6 @@
 
 def WordCount(str)
 	words = str.split(" ").count
-	print words
-
-end
-WordCount("This is good")
-
-# OR
-
-def WordCount(str)
-	str.split(" ").length
-	# str.split(" ").count
+	return words
 end
 

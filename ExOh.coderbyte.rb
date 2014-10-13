@@ -15,4 +15,3 @@ def ExOh(str)
 	return true
 end
 
-puts ExOh("xo")

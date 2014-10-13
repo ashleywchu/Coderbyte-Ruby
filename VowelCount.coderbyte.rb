@@ -9,5 +9,3 @@ def VowelCount(str)
 	vowel.count
 
 end
-
-puts VowelCount("hello")

@@ -2,8 +2,8 @@
 # the decimal form of the binary value. For example: if 101 is passed
 # return 5, or if 1000 is passed return 8. 
 
+# WRONG FIRST ATTEMPT
 =begin
-#WRONG
 def BinaryConverter(str)
 	exp = str.length
 	each_number = str.split("")
@@ -21,11 +21,7 @@ end
 puts BinaryConverter("100101")
 =end
 
-=begin
-def BinaryConverter(str)
-	str.to_i(2)
-end
-=end
+
 
 
 def BinaryConverter(str)
@@ -35,6 +31,5 @@ def BinaryConverter(str)
   for i in 0..letters.size()
     answer += letters[i].to_i * 2**i
   end
-  return "#{answer}" 
-         
+  return "#{answer}"   
 end

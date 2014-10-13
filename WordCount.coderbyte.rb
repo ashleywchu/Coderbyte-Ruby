@@ -10,11 +10,10 @@ def WordCount(str)
 end
 WordCount("This is good")
 
-=begin
+# OR
+
 def WordCount(str)
 	str.split(" ").length
 	# str.split(" ").count
 end
 
-puts WordCount("This is good")
-=end

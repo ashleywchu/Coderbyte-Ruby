@@ -13,13 +13,3 @@ def ABCheck(str)
 	return false
 	
 end 
-
-print ABCheck("Laura sobs")
-
-
-=begin
-def ABCheck(str)
-  str.match(/(a.{3}b|b.{3}a)/) ? true : false
-end
-print ABCheck("Laura sobs")
-=end

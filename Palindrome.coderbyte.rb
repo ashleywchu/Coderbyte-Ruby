@@ -15,4 +15,3 @@ def Palindrome(str)
 
 end
 
-puts Palindrome("ye")

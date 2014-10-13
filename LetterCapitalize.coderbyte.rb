@@ -12,13 +12,9 @@ end
 puts LetterCapitalize("This is my string.")
 
 
-=begin
+# OR
+
 def LetterCapitalize(str)
 	str.split(" ").map(&:capitalize).join(" ")
 
-
 end
-
-puts LetterCapitalize("This is my string.")
-
-=end

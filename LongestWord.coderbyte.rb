@@ -20,11 +20,8 @@ def LongestWord(sen)
 
 end
 
-puts LongestWord("Which is the longest word here")
-=begin
+# OR
+
 def LongestWord(sen)
 	print sen.split(" ").max_by(&:length)	 
 end
-
-LongestWord("Which is the longest word here")
-=end

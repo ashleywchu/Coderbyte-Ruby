@@ -15,15 +15,15 @@ end
 
 FirstFactorial(5)
 
-=begin
+# OR
+
 def FirstFactorial(num)
 
 	(1..num).reduce(:*)
 end
 
-puts FirstFactorial(3)
-=end
-=begin
+# OR
+
 def FirstFactorial(num)
 	i = 1
 	sum = 1
@@ -33,6 +33,3 @@ def FirstFactorial(num)
 	end
 	sum
 end
-
-puts FirstFactorial(3)
-=end

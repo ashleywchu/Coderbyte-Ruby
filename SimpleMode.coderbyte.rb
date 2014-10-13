@@ -12,8 +12,6 @@ def SimpleMode(arr)
 		end
 	}
 
-	hash.empty? ? -1 : hash.max_by { |k, v| v}.first.to_s
+	hash.empty? ? -1 : hash.max_by { |k, v| v }.first.to_s
 
 end
-
-SimpleMode([5, 10, 10, 6, 5])

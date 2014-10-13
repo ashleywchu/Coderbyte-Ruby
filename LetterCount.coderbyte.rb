@@ -20,4 +20,3 @@ def LetterCount(str)
 
 end
 
-puts LetterCount("Today, is the greatest day ever.")

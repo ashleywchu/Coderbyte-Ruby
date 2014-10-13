@@ -19,4 +19,3 @@ def ArrayAdditionI(array)
 	}
 	return can_be_added
 end
-puts ArrayAdditionI([4, 6, 23, 10, 1, 3])

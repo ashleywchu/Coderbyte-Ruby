@@ -15,11 +15,3 @@ def SimpleSymbols(str)
 	}
 	return true
 end
-
-puts SimpleSymbols("+d+=3=+s+")
-# split each character
-
-# if character is a letter, and the character before and after it is a + sign,
-# put true
-
-# else put false

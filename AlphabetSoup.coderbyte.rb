@@ -11,5 +11,3 @@ def AlphabetSoup(str)
 	return str
 
 end
-
-print AlphabetSoup("coderbyte")

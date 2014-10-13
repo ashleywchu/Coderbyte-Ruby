@@ -13,4 +13,3 @@ def CheckNums(num1, num2)
 		return "-1"
 	end
 end
-puts CheckNums(4, 3)

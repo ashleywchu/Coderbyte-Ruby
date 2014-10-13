@@ -11,16 +11,15 @@ def SimpleAdding(num)
 	end
 	print total
 end
-SimpleAdding(20)
 
+# OR
 
-=begin
 def SimpleAdding(num)
 	(1..num).reduce(:+)
-
 end
-=end
-=begin
+
+# OR
+
 def SimpleAdding(num)
 	i = 0
 	sum = 0
@@ -30,6 +29,3 @@ def SimpleAdding(num)
 	end
 	sum
 end
-
-puts SimpleAdding(3)
-=end

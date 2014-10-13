@@ -30,16 +30,3 @@ def PrimeMover(num)
  	prime_array.last
 end
 	
-
-
-
-puts PrimeMover(1000)
-
-=begin
-require 'prime'
-def PrimeMover(num)
-	puts Prime.first(num).last
-end
-
-puts PrimeMover(5)
-=end

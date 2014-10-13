@@ -16,4 +16,4 @@ def PrimeTime(num)
 	return true
 end
 
-puts PrimeTime(1)
+

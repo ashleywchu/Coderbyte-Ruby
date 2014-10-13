@@ -29,7 +29,6 @@ end
 arr.join('')
 end
 
-puts LetterChanges("hello*3")
 
 
 

@@ -4,6 +4,7 @@
 # once (ie. "lane borrowed" would result in true because there is exactly 
 # three characters between a and b). Otherwise return the string false.
 
+
 def ABCheck(str)
 	str.split("").each_with_index { |x, index|
 		if x == "a" && (str[index + 4] == "b")

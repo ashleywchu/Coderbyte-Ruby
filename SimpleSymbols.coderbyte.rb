@@ -6,6 +6,7 @@
 # surrounded by a + symbol. So the string to the left would be false. 
 # The string will not be empty and will have at least one letter. 
 
+
 def SimpleSymbols(str)
 	char = str.split("")
 	char.each_with_index { |i, index|
